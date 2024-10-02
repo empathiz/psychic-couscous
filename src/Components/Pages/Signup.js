@@ -130,7 +130,7 @@ function Signup() {
             {pending && <CustomLoadingButton />}
 
             <Text marginTop={"40px"} text={t("Already have an account?")} />
-            <Link text={t("Click here to loginn")} path="/login" />
+            <Link text={t("Click here to login")} path="/login" />
 
             <div style={{ marginTop: "60px" }} />
           </div>
