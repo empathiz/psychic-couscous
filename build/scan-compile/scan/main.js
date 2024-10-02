@@ -12,7 +12,7 @@ var items = [],
 var error;
 
 async function fetchItems() {
-  return fetch("http://127.0.0.1:8000/api/items/")
+  return fetch("https://quaint-dori-isthia-882c991e.koyeb.app/api/items/")
     .then((res) => {
       return res.json();
     })
@@ -24,7 +24,7 @@ async function fetchItems() {
 }
 
 async function fetchTargetFile() {
-  fetch("http://127.0.0.1:8000/api/targetfiles/")
+  fetch("https://quaint-dori-isthia-882c991e.koyeb.app/api/targetfiles/")
     .then((res) => res.json())
     .then(async (data) => {
       if (data.length > 0) {

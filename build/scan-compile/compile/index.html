@@ -10,7 +10,7 @@
       const compiler = new Compiler();
 
       const fetchItems = () => {
-        fetch("http://127.0.0.1:8000/api/items/")
+        fetch("https://quaint-dori-isthia-882c991e.koyeb.app/api/items/")
           .then((res) => res.json())
           .then((data) => {
             compileFile(data[data.length - 1].target_image);
@@ -27,7 +27,7 @@
       };
 
       const fetchMindFile = async () => {
-        fetch("http://127.0.0.1:8000/api/targetfiles/")
+        fetch("https://quaint-dori-isthia-882c991e.koyeb.app/api/targetfiles/")
           .then((res) => res.json())
           .then(async (data) => {
             if (data.length > 0) {
@@ -64,7 +64,7 @@
         form_data.append("file", file);
 
         if (first) {
-          fetch("http://127.0.0.1:8000/api/targetfiles/", {
+          fetch("https://quaint-dori-isthia-882c991e.koyeb.app/api/targetfiles/", {
             method: "POST",
             body: form_data,
           })
@@ -77,7 +77,7 @@
             })
             .catch((err) => console.error(err));
         } else {
-          fetch(`http://127.0.0.1:8000/api/targetfiles/${mindId}/`, {
+          fetch(`https://quaint-dori-isthia-882c991e.koyeb.app/api/targetfiles/${mindId}/`, {
             method: "PUT",
             body: form_data,
           })

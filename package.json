@@ -2,7 +2,7 @@
   "name": "museumore-frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://127.0.0.1:8000",
+  "proxy": "https://quaint-dori-isthia-882c991e.koyeb.app",
   "engines": {
       "node": "16"
   },
