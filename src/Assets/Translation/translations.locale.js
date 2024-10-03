@@ -1,7 +1,7 @@
 export default {
   hi_IN: {
     home: {
-      'Do you own a museum / gallary?': 'क्या आप किसी संग्रहालय/गैलरी के मालिक हैं?',
+      'Do you own a space / gallary?': 'क्या आप किसी स्थान/गैलरी के मालिक हैं?',
       'Click here to signup': 'साइन अप करने के लिए यहां क्लिक करें',
       'About Us': 'हमारे बारे में',
       'How to Use': 'कैसे उपयोग करें',
@@ -12,17 +12,17 @@ export default {
     aboutus: {
       'Our Story': 'हमारी कहानी',
       'Our Team': 'हमारी टीम',
-      'Kimia Sedighi': 'किमिया सेदीघी',
+      'Nikhil Katkar': 'निखिल कटकार',
       'Developer': 'डेवलपर',
-      'Niloufar Moradi Jam': 'नीलूफ़र मोरादी जम',
-      'Dr. Vahidi': 'डॉ. वहिदी',
+      'Aditya Jadhav': 'आदित्य जाधव',
+      'Gunjan Wadke': 'गुंजन वडके',
       'Guide Teacher': 'मार्गदर्शक शिक्षक',
-      'Dr. Alikhani': 'डॉ. अलीखानी'
+      'Hrigved Godkar': 'डॉ. अलीखानी'
     },
 
     gallaryinfo: {
       'You should fill all fields!': 'आपको सभी फ़ील्ड भरने होंगे!',
-      'Museum / Gallary name': 'संग्रहालय/गैलरी का नाम',
+      'Space / Gallary name': 'स्थान/गैलरी का नाम',
       'username': 'उपयोगकर्ता नाम',
       'email': 'ईमेल',
       'password': 'पासवर्ड',
@@ -76,7 +76,7 @@ export default {
     iteminfo: {
       'description': 'विवरण',
       'play main audio': 'मुख्य ऑडियो चलाएं',
-      'view museum / gallary info': 'संग्रहालय/गैलरी की जानकारी देखें',
+      'view space / gallary info': 'स्थान/गैलरी की जानकारी देखें',
       'Loading...': 'लोड हो रहा है...',
       'stop playing': 'चलाना बंद करें',
       'there is no item': 'कोई आइटम नहीं है',

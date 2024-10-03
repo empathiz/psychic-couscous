@@ -98,7 +98,7 @@ function Signup() {
           <ReturnButton path="/" />
           <div style={{ alignItems: "center", marginTop: "60px" }}>
             <Input
-              text={t("Museum / Gallary name")}
+              text={t("Space / Gallary name")}
               stateChanger={setName}
               border={errorName}
             />

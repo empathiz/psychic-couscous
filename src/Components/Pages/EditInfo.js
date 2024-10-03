@@ -132,7 +132,7 @@ function EditInfo() {
 
           <div style={{ marginTop: "40px" }} />
           <Input
-            text={t("Museum / Gallary name")}
+            text={t("Space / Gallary name")}
             stateChanger={setName}
             initText={name}
           />
