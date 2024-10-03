@@ -32,7 +32,7 @@ function Home() {
             <Button text={t("scan")} redirectPath={"https://scanit.pages.dev/scan-compile/scan/index.html"} />
             <Text
               marginTop={"50px"}
-              text={t("Do you own a museum / gallary?")}
+              text={t("Do you own a Space / gallary?")}
             />
             <Link text={t("Click here to signup")} path="/signup" />
           </div>

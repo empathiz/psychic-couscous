@@ -69,7 +69,7 @@ function ItemInfo() {
 
           <div style={{ marginTop: "70px" }} />
 
-          <Button text={t("view museum / gallary info")} path="/museuminfo" />
+          <Button text={t("view space / gallary info")} path="/museuminfo" />
 
           <div style={{ marginTop: "50px" }} />
         </>
