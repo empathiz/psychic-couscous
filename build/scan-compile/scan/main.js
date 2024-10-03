@@ -30,9 +30,6 @@ async function fetchTargetFile() {
       if (data.length > 0) {
         target_file = data[0].file;
 
-        if (target_file.startsWith('http://')) {
-          target_file = target_file.replace('http://', 'https://');
-        }
         mainFunction();
       }
     })
