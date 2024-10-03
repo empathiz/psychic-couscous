@@ -12,12 +12,12 @@ export default {
     aboutus: {
       'Our Story': 'हमारी कहानी',
       'Our Team': 'हमारी टीम',
-      'Nikhil Katkar': 'निखिल कटकार',
+      'Nikhil Katkar': 'निखिल काटकर',
       'Developer': 'डेवलपर',
       'Aditya Jadhav': 'आदित्य जाधव',
       'Gunjan Wadke': 'गुंजन वडके',
       'Guide Teacher': 'मार्गदर्शक शिक्षक',
-      'Hrigved Godkar': 'डॉ. अलीखानी'
+      'Hrigved Godkar': 'ह्रुग्वेद गोडकर'
     },
 
     gallaryinfo: {
