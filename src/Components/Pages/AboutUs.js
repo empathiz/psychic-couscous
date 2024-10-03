@@ -28,8 +28,8 @@ function AboutUs() {
           <div style={{ alignItems: "center" }}>
             <Logo width={60} />
 
-            <Link text={t("Our Story")} />
-            <Text text={story} />
+            {/* <Link text={t("Our Story")} /> */}
+            {/* <Text text={story} /> */}
 
             <div style={{ marginTop: "50px" }} />
             <Link text={t("Our Team")} />
