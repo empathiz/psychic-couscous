@@ -1,100 +1,100 @@
 export default {
-    fa_IR: {
-      home: {
-        'Do you own a museum / gallary?': 'آیا شما صاحب موزه / گالری هستید؟',
-        'Click here to signup': 'برای ثبت نام کلیک کنید',
-        'About Us': 'درباره ما',
-        'How to Use': 'طرز استفاده',
-        'Change to Persian': 'تغییر به زبان انگلیسی',
-        'scan': 'اسکن'
-      },
-
-      aboutus: {
-        'Our Story': 'داستان ما',
-        'Our Team': 'تیم ما',
-        'Kimia Sedighi': 'کیمیا صدیقی',
-        'Developer': 'توسعه دهنده',
-        'Niloufar Moradi Jam': 'نیلوفر مرادی جم',
-        'Dr. Vahidi': 'دکتر وحیدی',
-        'Guide Teacher': 'استاد راهنما',
-        'Dr. Alikhani': 'دکتر علیخانی'
-      },
-
-      gallaryinfo: {
-        'You should fill all fields!': 'باید تمام موارد را پر کنید!',
-        'Museum / Gallary name': 'نام موزه / گالری',
-        'username': 'نام کاربری',
-        'email': 'پست الکترونیک',
-        'password': 'رمز عبور',
-        'signup': 'ثبت نام',
-        'Already have an account?': 'از قبل یک حساب کاربری دارید؟',
-        'Click here to login': 'برای ورود کلیک کنید',
-        'Your password must contain at least 1 digit': 'رمز عبور شما باید حداقل یک رقم داشته باشد',
-        'additional info': 'اطلاعات اضافه',
-        'add image': 'اضافه کردن عکس',
-        'description': 'توضیحات',
-        'address': 'آدرس',
-        'phone/contact': 'شماره تماس',
-        'next': 'بعدی',
-        'You should fill name!': 'باید نام را پر کنید!',
-        'You should fill password!': 'باید رمز عبور را پر کنید!',
-        'change or set profile image': 'اضافه کردن یا تغییر دادن عکس',
-        'done': 'تمام',
-        'remove': 'حذف'
-      },
-
-      login: {
-        'Password is not correct!': 'رمز عبور شما صحیح نمی باشد!',
-        'There is no gallary with this username!': 'گالری با این نام کاربری وجود ندارد!',
-        'username': 'نام کاربری',
-        'forgot password?': 'رمز عبور خود را فراموش کرده اید؟',
-        'password': 'رمز عبور',
-        'login': 'ورود',
-        "don't have an account?": 'حساب کاربری ندارید؟',
-        'click here to signup': 'برای ثبت نام کلیک کنید'
-      },
-
-      dashboard: {
-        'add new item': 'اضافه کردن نمونه جدید',
-        'edit information': 'تغییر اطلاعات',
-        'library': 'مجموعه',
-        'logout': 'خروج از حساب کاربری'
-      },
-
-      editinfo: {
-        'Password is not correct!': 'رمز عبور شما صحیح نمی باشد!',
-        'There is no gallary with this username!': 'گالری با این نام کاربری وجود ندارد!',
-        'username': 'نام کاربری',
-        'forgot password?': 'رمز عبور خود را فراموش کرده اید؟',
-        'password': 'رمز عبور',
-        'login': 'ورود',
-        "don't have an account?": 'حساب کاربری ندارید؟',
-        'click here to signup': 'برای ثبت نام کلیک کنید',
-        'remove': 'حذف'
-      },
-
-      iteminfo: {
-        'description': 'توضیحات',
-        'play main audio': 'پخش فایل صوتی اصلی',
-        'view museum / gallary info': 'مشاهده اطلاعات موزه / گالری',
-        'Loading...': 'در حال بررسی',
-        'stop playing': 'توقف پخش',
-        'there is no item': 'درحال حاضر هیچ شیءی',
-        'in the library right now!': 'در مجموعه ثبت نشده است!'
-      },
-
-      additem: {
-        'You should fill title!': 'باید عنوان را پر کنید!',
-        'You should choose a target image!': 'باید یک عکس هدف انتخاب کنید!',
-        'Title': 'عنوان',
-        'add main audio': 'اضافه کردن فایل صوتی اصلی',
-        'add augmented image or video': 'اضافه کردن ویدیو یا عکس برای واقعیت افزوده',
-        'add target image': 'اضافه کردن عکس هدف',
-        'Description': 'توضیحات',
-        'add extra video': 'اضافه کردن ویدیوی تکمیلی',
-        'Done': 'تمام',
-        'remove': 'حذف'
-      }
+  hi_IN: {
+    home: {
+      'Do you own a museum / gallary?': 'क्या आप किसी संग्रहालय/गैलरी के मालिक हैं?',
+      'Click here to signup': 'साइन अप करने के लिए यहां क्लिक करें',
+      'About Us': 'हमारे बारे में',
+      'How to Use': 'कैसे उपयोग करें',
+      'Change to Persian': 'हिंदी में बदलें',
+      'scan': 'स्कैन करें'
     },
-    // add other language to the object
-  };
+
+    aboutus: {
+      'Our Story': 'हमारी कहानी',
+      'Our Team': 'हमारी टीम',
+      'Kimia Sedighi': 'किमिया सेदीघी',
+      'Developer': 'डेवलपर',
+      'Niloufar Moradi Jam': 'नीलूफ़र मोरादी जम',
+      'Dr. Vahidi': 'डॉ. वहिदी',
+      'Guide Teacher': 'मार्गदर्शक शिक्षक',
+      'Dr. Alikhani': 'डॉ. अलीखानी'
+    },
+
+    gallaryinfo: {
+      'You should fill all fields!': 'आपको सभी फ़ील्ड भरने होंगे!',
+      'Museum / Gallary name': 'संग्रहालय/गैलरी का नाम',
+      'username': 'उपयोगकर्ता नाम',
+      'email': 'ईमेल',
+      'password': 'पासवर्ड',
+      'signup': 'साइन अप करें',
+      'Already have an account?': 'पहले से एक खाता है?',
+      'Click here to login': 'लॉगिन करने के लिए यहां क्लिक करें',
+      'Your password must contain at least 1 digit': 'आपके पासवर्ड में कम से कम 1 अंक होना चाहिए',
+      'additional info': 'अतिरिक्त जानकारी',
+      'add image': 'चित्र जोड़ें',
+      'description': 'विवरण',
+      'address': 'पता',
+      'phone/contact': 'फ़ोन/संपर्क',
+      'next': 'आगे',
+      'You should fill name!': 'आपको नाम भरना होगा!',
+      'You should fill password!': 'आपको पासवर्ड भरना होगा!',
+      'change or set profile image': 'प्रोफ़ाइल चित्र बदलें या सेट करें',
+      'done': 'पूरा',
+      'remove': 'हटाएं'
+    },
+
+    login: {
+      'Password is not correct!': 'पासवर्ड सही नहीं है!',
+      'There is no gallary with this username!': 'इस उपयोगकर्ता नाम के साथ कोई गैलरी नहीं है!',
+      'username': 'उपयोगकर्ता नाम',
+      'forgot password?': 'पासवर्ड भूल गए?',
+      'password': 'पासवर्ड',
+      'login': 'लॉगिन करें',
+      "don't have an account?": 'कोई खाता नहीं है?',
+      'click here to signup': 'साइन अप करने के लिए यहां क्लिक करें'
+    },
+
+    dashboard: {
+      'add new item': 'नया आइटम जोड़ें',
+      'edit information': 'जानकारी संपादित करें',
+      'library': 'पुस्तकालय',
+      'logout': 'लॉगआउट'
+    },
+
+    editinfo: {
+      'Password is not correct!': 'पासवर्ड सही नहीं है!',
+      'There is no gallary with this username!': 'इस उपयोगकर्ता नाम के साथ कोई गैलरी नहीं है!',
+      'username': 'उपयोगकर्ता नाम',
+      'forgot password?': 'पासवर्ड भूल गए?',
+      'password': 'पासवर्ड',
+      'login': 'लॉगिन करें',
+      "don't have an account?": 'कोई खाता नहीं है?',
+      'click here to signup': 'साइन अप करने के लिए यहां क्लिक करें',
+      'remove': 'हटाएं'
+    },
+
+    iteminfo: {
+      'description': 'विवरण',
+      'play main audio': 'मुख्य ऑडियो चलाएं',
+      'view museum / gallary info': 'संग्रहालय/गैलरी की जानकारी देखें',
+      'Loading...': 'लोड हो रहा है...',
+      'stop playing': 'चलाना बंद करें',
+      'there is no item': 'कोई आइटम नहीं है',
+      'in the library right now!': 'अभी पुस्तकालय में!'
+    },
+
+    additem: {
+      'You should fill title!': 'आपको शीर्षक भरना होगा!',
+      'You should choose a target image!': 'आपको एक लक्षित चित्र चुनना होगा!',
+      'Title': 'शीर्षक',
+      'add main audio': 'मुख्य ऑडियो जोड़ें',
+      'add augmented image or video': 'विस्तारित छवि या वीडियो जोड़ें',
+      'add target image': 'लक्षित छवि जोड़ें',
+      'Description': 'विवरण',
+      'add extra video': 'अतिरिक्त वीडियो जोड़ें',
+      'Done': 'पूरा',
+      'remove': 'हटाएं'
+    }
+  },
+  // add other language to the object
+};
