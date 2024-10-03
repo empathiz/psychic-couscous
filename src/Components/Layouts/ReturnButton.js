@@ -15,11 +15,11 @@ function ReturnButton(params) {
     } else navigate(-1);
   };
 
-  const [lang, setLang] = useState("fa_IR");
+  const [lang, setLang] = useState("hi_IN");
 
   const changeLang = () => {
     i18next.changeLanguage(lang);
-    if (lang == "en_US") setLang("fa_IR");
+    if (lang == "en_US") setLang("hi_IN");
     else setLang("en_US");
   };
 
