@@ -27,7 +27,7 @@ function Home() {
           <ReturnButton notHasReturn={true} />
           <div style={{ alignItems: "center" }}>
             <Logo width={100} />
-            {/* <Button text={t("scan")} redirectPath={"http://127.0.0.1:8080"} /> */}
+            {/* <Button text={t("scan")} redirectPath={"https://127.0.0.1:8080"} /> */}
             {/* <Button text={t("scan")} redirectPath={"https://scanit.pages.dev/scan-compile/scan/index.html"} /> */}
             <Button text={t("scan")} redirectPath={"https://scanit.pages.dev/scan-compile/scan/index.html"} />
             <Text

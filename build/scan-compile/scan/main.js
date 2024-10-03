@@ -2,7 +2,7 @@
 // const controlOverlay = document.querySelector("#control-overlay");
 // controlOverlay.style.display = "block";
 // returnButton.addEventListener('click', () => {
-//   window.location.replace(`http://127.0.0.1:3000/`);
+//   window.location.replace(`https://127.0.0.1:3000/`);
 //   console.log("here");
 // });
 
@@ -168,7 +168,7 @@ afterAugment = () => {
         }
       });
       info_btn[i].addEventListener("click", () => {
-        window.location.replace(`http://127.0.0.1:3000/iteminfo/${i}`);
+        window.location.replace(`https://127.0.0.1:3000/iteminfo/${i}`);
       });
     }
   }
