@@ -171,7 +171,7 @@ afterAugment = () => {
         }
       });
       info_btn[i].addEventListener("click", () => {
-        window.location.replace(`https://127.0.0.1:3000/iteminfo/${i}`);
+        window.location.replace(`https://scanit.pages.dev/iteminfo/${i}`);
       });
     }
   }
