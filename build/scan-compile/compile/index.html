@@ -31,7 +31,11 @@
           .then((res) => res.json())
           .then(async (data) => {
             if (data.length > 0) {
-              let blob = await fetch(data[0].file).then((r) => r.blob());
+              let fileUrl = data[0].file;
+              if (fileUrl.startsWith('http://')) {
+                fileUrl = fileUrl.replace('http://', 'https://');
+              }
+              let blob = await fetch(fileUrl).then((r) => r.blob());
               let file = new File([blob], "targets.mind");
               loadMindFile(file);
               mindId = data[0].id;
