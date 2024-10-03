@@ -48,7 +48,7 @@ function AboutUs() {
             <div style={{ paddingLeft: "20px", paddingRight: "20px" }}>
               <PersonalCard
                 image={person_img}
-                name={t("Gujan Wadke")}
+                name={t("Gunjan Wadke")}
                 // role={t("Guide Teacher")}
               />
               <PersonalCard
